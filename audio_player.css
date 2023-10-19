@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#custom-audio-player {
+  display: flex;
+  align-items: center;
+}
+#play-pause-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #0078d4; /* Play/Pause button color */
+}
+#progress-bar-container {
+  flex: 1;
+  height: 20px;
+  background-color: #f0f0f0; /* Timeline bar background color */
+  position: relative;
+  border: 2px solid #000000; /* Timeline bar border */
+  border-radius: 3px; /* Rounded corners */
+  box-shadow: 5px 10px 5px rgba(135, 127, 127, 1); /* Box shadow */
+}
+#seeker {
+  height: 20px;
+  background-color: #0078d4; /* Seeker color */
+  width: 10px; /* Seeker width */
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+#highlighted-section {
+  height: 100%;
+  background-color: #f00; /* Highlighted section color */
+  width: 10%; /* Adjust this value to control the width of the highlighted section */
+  position: absolute;
+}
+audio {
+  display: none; /* Hide the default audio player */
+}
+#play-pause-button:hover {
+  color: #0056b3; /* Play/Pause button color on hover */
+}
