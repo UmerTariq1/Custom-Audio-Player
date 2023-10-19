@@ -1,4 +1,10 @@
 # Custom-Audio-Player
+
+Created a custom audio player, a part of which can be highlighted to indicate an important part of the audio
+
+
+
+DETAILS : 
 Sorry for the language but it's 1 am right now and I spent around 4 hours finding, writing and customising this piece of shit code. It shouldn't have taken this long and this option should have been a part of the audio element itself. WHY IS IT NOT? 
 
 USE CASE:
